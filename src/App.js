@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Switch>
       {/* Route des différents pages */}
-      <Route exact path="/" component={Home} />
+      <Route exact path="/heavens-r" component={Home} />
       <Route exact path="/outils" component={Outils} />
       <Route exact path="/connection" component={Connection} />
       <Redirect to="/" /> {/* Redirection automatique si le chemin de l'url est invalide */}

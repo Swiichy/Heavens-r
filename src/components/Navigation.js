@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <ul className="navigation__left">
-                <NavLink to="/">
+                <NavLink to="/heavens-r">
                     <li className="nav__item">guilde</li>
                 </NavLink>
                 <li className="nav__line"></li>
@@ -15,7 +15,7 @@ const Navigation = () => {
                 </NavLink>
             </ul>
             <div className="nav__logo">
-                <NavLink to="/">
+                <NavLink to="/heavens-r">
                     <li className="nav__logo"><img src={logo} /></li>
                 </NavLink>
             </div>
