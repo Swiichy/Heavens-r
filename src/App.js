@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Redirect, Route, Switch } from 'react-router-dom';
+import Connection from './pages/Connection';
+import Home from './pages/Home';
+import Outils from './pages/Outils';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      {/* Route des différents pages */}
+      <Route exact path="/" component={Home} />
+      <Route exact path="/outils" component={Outils} />
+      <Route exact path="/connection" component={Connection} />
+      <Redirect to="/" /> {/* Redirection automatique si le chemin de l'url est invalide */}
+    </Switch>
   );
-}
+};
 
 export default App;

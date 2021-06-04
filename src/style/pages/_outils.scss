@@ -1,0 +1,11 @@
+.outils {
+
+    &__main {
+        height: calc(100vh - 120px);
+        background-size: cover;
+        background-position: center -30%;
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-attachment: fixed;
+    }
+}

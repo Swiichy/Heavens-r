@@ -1,0 +1,52 @@
+.navigation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__left,
+    &__right {
+        display: flex;
+        align-items: center;
+        padding-top: 2.2em;
+    }
+
+    & .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1em;
+
+        &__item {
+            font-size: 24px;
+            
+            &:hover {
+                color: var(--primary-green);
+                transition: all ease-in-out 200ms;
+            }
+        }
+
+        &__expect {
+
+            a:hover {
+                color: var(--primary-green);
+                transition: all ease-in-out 200ms;
+            }
+        }
+
+        &__logo {
+
+            & img {
+                max-width: 200px;
+                margin: 1em 1em  0em 1em;
+            }
+        }
+
+        &__line {
+            width: 2px;
+            height: 30px;
+            background: var(--secondary-dark);
+            margin: 0 1em;
+        } 
+    }
+}

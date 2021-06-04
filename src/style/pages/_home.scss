@@ -1,0 +1,11 @@
+.home {
+
+    &__main {
+        height: calc(100vh - 120px);
+        background-size: cover;
+        background-position: center 50%;
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-attachment: fixed;
+    }
+}
