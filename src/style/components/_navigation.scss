@@ -37,8 +37,10 @@
         &__logo {
 
             & img {
+                position: relative;
                 max-width: 200px;
                 margin: 1em 1em  0em 1em;
+                z-index: 20;
             }
         }
 
@@ -47,6 +49,60 @@
             height: 30px;
             background: var(--secondary-dark);
             margin: 0 1em;
-        } 
+        }
+
+        &__icon {
+
+            span {
+                padding-right: 0.5em;
+                padding-bottom: 1.1em;
+            }
+
+            svg {
+                font-size: 1em;
+                transition: all ease-in-out 200ms; 
+            }
+
+            &:hover svg {
+                rotate: 90deg;
+                transition: all ease-in-out 200ms;
+            }
+        }
+
+        &__hover {
+    
+            &:hover .nav__active-active {
+                visibility: visible;
+                transition: all ease-in-out 200ms;
+            }
+        }
+
+        &__active {
+            
+            &-active {
+                display: flex;
+                visibility: hidden;
+                width: 100%;
+                position: absolute;
+                top: 140px;
+                background: var(--primary-dark);
+                border-top: var(--primary-green) 3px solid;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                &-item {
+                    padding: 1em 0;
+
+                    &:nth-child(1) {
+                        padding-left: 1em;
+                    }
+                }
+            }
+        }
     }
+}
+
+//Active ClassName
+.nav-active {
+    color: var(--primary-green) !important;
 }

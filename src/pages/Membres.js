@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 
-const Connection = () => {
+const Membres = () => {
     return (
         <div>
             <Header />
@@ -9,4 +9,4 @@ const Connection = () => {
     );
 };
 
-export default Connection;
+export default Membres;

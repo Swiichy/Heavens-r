@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
+import ListDonjon from '../components/ListDonjon';
 
-const Connection = () => {
+const Donjons = () => {
     return (
         <div>
             <Header />
+            <ListDonjon />
         </div>
     );
 };
 
-export default Connection;
+export default Donjons;
