@@ -2,14 +2,13 @@
   "name": "heavens-r",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://swiichy.github.io",
+  "homepage": "https://Swiichy.github.io/Heavens-r",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.3",
     "framer-motion": "^2.1.4",
-    "gh-pages": "^3.2.0",
     "react": "^16.13.1",
     "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.13.1",
@@ -18,7 +17,8 @@
     "websocket-extensions": "^0.1.4"
   },
   "scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.0",
     "node-sass": "^4.14.1"
   }
 }
