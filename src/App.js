@@ -4,7 +4,7 @@ import Connection from './pages/Connection';
 import Home from './pages/Home';
 import Outils from './pages/Outils';
 import Membres from './pages/Membres';
-import Donjons from './pages/Donjons';
+import Donjons from './pages/donjon/Donjons';
 
 
 const App = () => {

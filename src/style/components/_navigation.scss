@@ -42,6 +42,10 @@
                 margin: 1em 1em  0em 1em;
                 z-index: 20;
             }
+
+            li {
+                list-style-type: none;
+            }
         }
 
         &__line {

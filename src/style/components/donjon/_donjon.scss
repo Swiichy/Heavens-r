@@ -1,0 +1,37 @@
+.donjon__main {
+    display: flex;
+}
+
+.donjons {
+    
+    & ul {
+        display: flex;
+    }
+}
+
+.navDonjon {
+   display: flex; 
+   flex-direction: column;
+}
+
+.navDonjon__container {
+    display: flex;
+
+    &-nav {
+        height: calc(100vh - 120px);
+        background: var(--primary-dark);
+        border: 2px var(--primary-green) solid;
+        border-left: 0px;
+        
+        & ul a {
+            text-decoration: none;
+            color: var(--primary-white);
+            font-family: 'Bebas Neue', cursive;
+            font-size: 24px;
+        }
+
+        & ul li {
+            margin: 2em;
+        }
+    }
+}
