@@ -40,7 +40,7 @@ const Navigation = () => {
                 </li>
                 <li className="nav__line"></li>
                 <NavLink to="/connection" activeClassName="nav-active">
-                    <li className="nav__item">connection</li>
+                    <li className="nav__item">connexion</li>
                 </NavLink>
             </ul>
         </div>
