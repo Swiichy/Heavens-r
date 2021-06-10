@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './style/index.scss';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as HashRouter } from 'react-router-dom';
 
 
 ReactDOM.render(
-  <Router>
+  <HashRouter>
     <App />
-  </Router>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
