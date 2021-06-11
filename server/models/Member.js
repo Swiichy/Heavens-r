@@ -16,6 +16,10 @@ const MemberSchema = new mongoose.Schema({
     memberSucces: {
         type: Number,
         required: true
+    },
+    memberRang: {
+        type: String,
+        required: true
     }
 });
 

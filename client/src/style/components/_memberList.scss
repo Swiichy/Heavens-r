@@ -1,0 +1,11 @@
+.memberList {
+    display: flex;
+
+    & ul {
+        display: flex;
+
+        & li {
+            padding: 0 1em;
+        }
+    }
+}

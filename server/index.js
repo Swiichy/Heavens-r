@@ -19,12 +19,14 @@ app.post('/insert', async (req, res) => {
     const memberLevel = req.body.memberLevel;
     const memberClasse = req.body.memberClasse;
     const memberSucces = req.body.memberSucces;
+    const memberRang = req.body.memberRang;
 
     const Member = new MemberModel({
         memberPseudo: memberPseudo,
         memberLevel: memberLevel,
         memberClasse: memberClasse,
-        memberSucces: memberSucces
+        memberSucces: memberSucces,
+        memberRang: memberRang
     });
 
     try {
