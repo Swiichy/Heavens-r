@@ -1,13 +1,16 @@
+const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 5000;
+var cors = require('cors')
 
 const MemberModel = require("./models/Member");
 
 const buildPath = path.join(__dirname, '..', 'build');
 app.use(express.static(buildPath));
 app.use(express.json());
+app.use(cors());
 
 mongoose.connect('mongodb+srv://swiichy:alphabeta@cluster0.ty0vk.mongodb.net/heavenMember?retryWrites=true&w=majority', {
     useNewUrlParser: true,
