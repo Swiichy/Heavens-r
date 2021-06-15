@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/heavens-r/static/css/main.c003e780.chunk.css",
+    "main.js": "/heavens-r/static/js/main.dc5f7e4f.chunk.js",
+    "main.js.map": "/heavens-r/static/js/main.dc5f7e4f.chunk.js.map",
+    "runtime-main.js": "/heavens-r/static/js/runtime-main.b1c3230b.js",
+    "runtime-main.js.map": "/heavens-r/static/js/runtime-main.b1c3230b.js.map",
+    "static/js/2.8fcb2b5c.chunk.js": "/heavens-r/static/js/2.8fcb2b5c.chunk.js",
+    "static/js/2.8fcb2b5c.chunk.js.map": "/heavens-r/static/js/2.8fcb2b5c.chunk.js.map",
+    "index.html": "/heavens-r/index.html",
+    "precache-manifest.334b7ad40f599962949b1844a90d703b.js": "/heavens-r/precache-manifest.334b7ad40f599962949b1844a90d703b.js",
+    "service-worker.js": "/heavens-r/service-worker.js",
+    "static/css/main.c003e780.chunk.css.map": "/heavens-r/static/css/main.c003e780.chunk.css.map",
+    "static/js/2.8fcb2b5c.chunk.js.LICENSE.txt": "/heavens-r/static/js/2.8fcb2b5c.chunk.js.LICENSE.txt",
+    "static/media/bg_heavens.jpg": "/heavens-r/static/media/bg_heavens.4b919f59.jpg",
+    "static/media/bg_outils.jpg": "/heavens-r/static/media/bg_outils.ded5333b.jpg",
+    "static/media/logo.png": "/heavens-r/static/media/logo.2059b491.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1c3230b.js",
+    "static/js/2.8fcb2b5c.chunk.js",
+    "static/css/main.c003e780.chunk.css",
+    "static/js/main.dc5f7e4f.chunk.js"
+  ]
+}
